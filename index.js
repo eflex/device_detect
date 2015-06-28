@@ -16,7 +16,7 @@ function matchThis(toTest, pattern) {
   var device = require("device_detect")(userAgent);
   output:
   {
-    deviceType: "iPad",
+    device: "iPad",
     os: "iOS",
     browser: "Chrome"
   }

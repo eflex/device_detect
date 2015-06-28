@@ -15,5 +15,5 @@ var detector = require("device_detect");
 var device = detector(this.get('user-agent'))
 this.body = device;
 
-// output: {deviceType: "iPad", os: "iOS", browser: "Chrome"}
+// output: {device: "iPad", os: "iOS", browser: "Chrome"}
 ```
